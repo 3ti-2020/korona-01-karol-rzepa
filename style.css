@@ -1,3 +1,43 @@
-body {
-color: darkgrey;
+body{
+    margin: 0;
+    padding: 0;
 }
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.title{
+    display: flex;
+    height: 20vh;
+    flex-basis: 100%;
+}
+.main{
+    display: flex;
+    height: 80vh;
+    flex-basis: 100%;
+}
+    .left{
+        display: flex;
+        height: 80vh;
+        flex-basis: 25%;
+    }
+    .right{
+        display: flex;
+        height: 80vh;
+        flex-basis: 75%;
+    }
+        .ins{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            flex-basis: 50%;
+        }
+        .tabela{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            flex-basis: 50%;
+        }
