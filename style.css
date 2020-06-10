@@ -73,6 +73,17 @@ body{
             height: 60vh;
             flex-basis: 100%;
         }
+        .upa{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 80vh;
+            flex-basis: 100%;
+        }
+            .gal{
+                height: 15vh;
+                flex-basis: 26%;
+            }
         .down{
             height: 20vh;
             flex-basis: 100%;
