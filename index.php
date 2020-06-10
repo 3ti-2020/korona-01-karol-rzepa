@@ -12,15 +12,21 @@
         </div>
         <div class="main">
             <div class="left">
-                <div class="a">
-                    GALERIA
-                </div>
+                <a href="">
+                    <div class="a">
+                        GALERIA
+                    </div>
+                </a>
+                <a href="">
                 <div class="a">
                     HISTORIA
                 </div>
+                </a>
+                <a href="">
                 <div class="a">
                     ZASADY
                 </div>
+                </a>
             </div>
             <div class="right">
                 <div class="ins">
@@ -41,7 +47,7 @@
                  $db="fa";
                  $conn=new mysqli($ser,$use,$pass,$db);
 
-                 $result = $conn->query("SELECT * FROM zawodnicy");
+                 $result = $conn->query("SELECT * FROM zaw");
                  echo("<table class='tabelka'>");
                  echo("<tr>
                      <td>Imie</td>

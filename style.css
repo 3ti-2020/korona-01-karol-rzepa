@@ -26,7 +26,7 @@ body{
         align-items: center;
         flex-basis: 25%;
     }
-        .a{
+        a{
             display: flex;
             border: black 1px solid;
             border-radius: 10px;
@@ -55,3 +55,6 @@ body{
             height: 80vh;
             flex-basis: 50%;
         }
+            .tabelka{
+                
+            }
