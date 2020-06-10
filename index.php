@@ -12,11 +12,14 @@
         </div>
         <div class="main">
             <div class="left">
-                <div class="gallery">
+                <div class="a">
+                    GALERIA
                 </div>
-                <div class="historia">
+                <div class="a">
+                    HISTORIA
                 </div>
-                <div class="zasady">
+                <div class="a">
+                    ZASADY
                 </div>
             </div>
             <div class="right">

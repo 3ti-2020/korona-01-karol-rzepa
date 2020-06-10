@@ -4,6 +4,7 @@ body{
 }
 .container{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
 }
@@ -19,9 +20,22 @@ body{
 }
     .left{
         display: flex;
+        flex-wrap: wrap;
         height: 80vh;
+        justify-content: space-around;
+        align-items: center;
         flex-basis: 25%;
     }
+        .a{
+            display: flex;
+            border: black 1px solid;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 51%;
+            height: 10vh;
+            background-color: aqua;
+        }
     .right{
         display: flex;
         height: 80vh;
