@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <div class="title">
+        <img src="ZFAP_LOGO_ALTER.png" class="zfap">
         </div>
         <div class="main">
             <div class="left">
@@ -17,12 +18,17 @@
                         GALERIA
                     </div>
                 </a>
-                <a href="">
+                <a href="index.php">
+                    <div class="a">
+                        ZAWODNICY
+                    </div>
+                </a>
+                <a href="index2.html">
                 <div class="a">
                     HISTORIA
                 </div>
                 </a>
-                <a href="">
+                <a href="index.html">
                 <div class="a">
                     ZASADY
                 </div>
