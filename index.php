@@ -13,7 +13,7 @@
         </div>
         <div class="main">
             <div class="left">
-                <a href="">
+                <a href="index3.html">
                     <div class="a">
                         GALERIA
                     </div>
